@@ -67,7 +67,7 @@
         "tmp0lo46xsh.png"
     ],
     "mid": "1579644350912",
-    "name": "Year 1::Cardiovascular",
+    "name": "Cardiovascular",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -97,9 +97,7 @@
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "name": "Cloze-47260",
             "sortf": 0,
-            "tags": [
-                "heart"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
@@ -273,7 +271,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Basic",
+            "name": "Basic-78fe1",
             "req": [
                 [
                     0,
@@ -403,6 +401,20 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nii9u!f*dc",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": [
+                "heart"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "Which is the biggest vessel",
                 "Aorta"
             ],
@@ -431,15 +443,25 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                "The answer to this card is&nbsp;{{c1::the answer}}",
                 ""
             ],
             "flags": 0,
-            "guid": "Nii9u!f*dc",
+            "guid": "HEE.n{2Wks",
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
-            "tags": [
-                "heart"
-            ]
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The answer to the previous card was&nbsp;{{c1::correct}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pnLUF}e2%M",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
         }
     ]
 }
