@@ -462,6 +462,32 @@
             "guid": "pnLUF}e2%M",
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the vessel that supplies the head and neck",
+                "Carotid"
+            ],
+            "flags": 0,
+            "guid": "bt:c/~7MFJ",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Year_1::Cardiovascular"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1 + 1 =&nbsp;{{c1::99}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pEDJm_}C`>",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
         }
     ]
 }
