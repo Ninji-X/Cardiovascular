@@ -97,7 +97,9 @@
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "name": "Cloze",
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "heart"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
@@ -342,6 +344,20 @@
             "guid": "uj-6biog-J",
             "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nii9u!f*dc",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": [
+                "heart"
+            ]
         }
     ]
 }
