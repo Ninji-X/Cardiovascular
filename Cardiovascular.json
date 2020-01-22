@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "32d40e78-3cac-11ea-9015-7c2a3105af72",
-    "deck_config_uuid": "32d40e79-3cac-11ea-a164-7c2a3105af72",
+    "crowdanki_uuid": "9658929a-3c9b-11ea-a39e-40f02f57627f",
+    "deck_config_uuid": "9658929b-3c9b-11ea-becb-40f02f57627f",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "32d40e79-3cac-11ea-a164-7c2a3105af72",
+            "crowdanki_uuid": "9658929b-3c9b-11ea-becb-40f02f57627f",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -54,13 +54,24 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [],
-    "mid": "1579647404172",
+    "media_files": [
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-1-A.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-1-Q.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-2-A.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-2-Q.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-3-A.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-3-Q.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-4-A.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-4-Q.svg",
+        "8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg",
+        "tmp0lo46xsh.png"
+    ],
+    "mid": "1579647404186",
     "name": "Cardiovascular",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "32d40e7c-3cac-11ea-b64e-7c2a3105af72",
+            "crowdanki_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
             "flds": [
                 {
@@ -84,7 +95,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Cloze",
+            "name": "Cloze-47260",
             "sortf": 0,
             "tags": [],
             "tmpls": [
@@ -100,6 +111,261 @@
             ],
             "type": 1,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Image Occlusion Enhanced-3a86c",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-78fe1",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Vessels"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)-93cf8",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": [
@@ -107,12 +373,212 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The answer is&nbsp;{{c1::hidden}}",
+                "The&nbsp;{{c1::heart}} exists",
                 ""
             ],
             "flags": 0,
-            "guid": "tm6Xt]c1+3",
-            "note_model_uuid": "32d40e7c-3cac-11ea-b64e-7c2a3105af72",
+            "guid": "e0`FP,):no",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8229eb9eedc74d06afcc83370eb3b21d-ao-1",
+                "",
+                "<img src=\"tmp0lo46xsh.png\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-1-A.svg\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "OJ1IgQ6l)`",
+            "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8229eb9eedc74d06afcc83370eb3b21d-ao-2",
+                "",
+                "<img src=\"tmp0lo46xsh.png\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-2-A.svg\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "IgU447,cbz",
+            "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8229eb9eedc74d06afcc83370eb3b21d-ao-3",
+                "",
+                "<img src=\"tmp0lo46xsh.png\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-3-A.svg\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "Qjco0t)QnT",
+            "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8229eb9eedc74d06afcc83370eb3b21d-ao-4",
+                "",
+                "<img src=\"tmp0lo46xsh.png\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-4-A.svg\" />",
+                "<img src=\"8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "uj-6biog-J",
+            "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the biggest vessel",
+                "Aorta"
+            ],
+            "flags": 0,
+            "guid": "G2>)`RKXi<",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Valves"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which vessels supply the heart",
+                "Coronary"
+            ],
+            "flags": 0,
+            "guid": "O/&U=U)2C0",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Vessels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nii9u!f*dc",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": [
+                "heart"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the vessel that supplies the head and neck",
+                "Carotid"
+            ],
+            "flags": 0,
+            "guid": "bt:c/~7MFJ",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Year_1::Cardiovascular"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The answer to this card is&nbsp;{{c1::the answer}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HEE.n{2Wks",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The answer to the previous card was&nbsp;{{c1::correct}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pnLUF}e2%M",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1+1=",
+                "Windows"
+            ],
+            "flags": 0,
+            "guid": "kYz&=|&j/J",
+            "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1 + 1 =&nbsp;{{c1::99}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pEDJm_}C`>",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "card frnot",
+                "card back"
+            ],
+            "flags": 0,
+            "guid": "FM/l&lt3&k",
+            "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
             "tags": []
         }
     ]
