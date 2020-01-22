@@ -325,11 +325,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-<<<<<<< HEAD
             "name": "Basic (and reversed card)-93cf8",
-=======
-            "name": "Basic (and reversed card)",
->>>>>>> 7b0eedd39d6d286236ec9f61e1190aea4a4ae58e
             "req": [
                 [
                     0,
@@ -473,6 +469,20 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nii9u!f*dc",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": [
+                "heart"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "Which is the biggest vessel",
                 "Aorta"
             ],
@@ -495,34 +505,6 @@
             "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
             "tags": [
                 "Vessels"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
-                ""
-            ],
-            "flags": 0,
-            "guid": "Nii9u!f*dc",
-            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
-            "tags": [
-                "heart"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Which is the vessel that supplies the head and neck",
-                "Carotid"
-            ],
-            "flags": 0,
-            "guid": "bt:c/~7MFJ",
-            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
-            "tags": [
-                "Year_1::Cardiovascular"
             ]
         },
         {
@@ -553,7 +535,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-<<<<<<< HEAD
                 "Which is the vessel that supplies the head and neck",
                 "Carotid"
             ],
@@ -580,8 +561,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-=======
->>>>>>> 7b0eedd39d6d286236ec9f61e1190aea4a4ae58e
                 "1+1=",
                 "Windows"
             ],
