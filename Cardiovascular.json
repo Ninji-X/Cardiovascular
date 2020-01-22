@@ -247,6 +247,60 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-78fe1",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Vessels"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
@@ -415,6 +469,110 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "Which is the biggest vessel",
+                "Aorta"
+            ],
+            "flags": 0,
+            "guid": "G2>)`RKXi<",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Valves"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which vessels supply the heart",
+                "Coronary"
+            ],
+            "flags": 0,
+            "guid": "O/&U=U)2C0",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Vessels"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The&nbsp;{{c1::left}} side of the heart pumps blood to the systemic circulation.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nii9u!f*dc",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": [
+                "heart"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the vessel that supplies the head and neck",
+                "Carotid"
+            ],
+            "flags": 0,
+            "guid": "bt:c/~7MFJ",
+            "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
+            "tags": [
+                "Year_1::Cardiovascular"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The answer to this card is&nbsp;{{c1::the answer}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HEE.n{2Wks",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The answer to the previous card was&nbsp;{{c1::correct}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pnLUF}e2%M",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1+1=",
+                "Windows"
+            ],
+            "flags": 0,
+            "guid": "kYz&=|&j/J",
+            "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1 + 1 =&nbsp;{{c1::99}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pEDJm_}C`>",
+            "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "card frnot",
                 "card back"
             ],
@@ -427,8 +585,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "I broke it",
-                "Your welcome<br>"
+                "I broke it againe",
+                "Your'r welcome<br>"
             ],
             "flags": 0,
             "guid": "e$RQX)%3x@",
