@@ -568,6 +568,18 @@
             "guid": "kYz&=|&j/J",
             "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "card frnot",
+                "card back"
+            ],
+            "flags": 0,
+            "guid": "FM/l&lt3&k",
+            "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "tags": []
         }
     ]
 }
