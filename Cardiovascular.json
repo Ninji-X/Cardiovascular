@@ -681,6 +681,19 @@
             "newlyAdded": false,
             "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "testing",
+                "testing"
+            ],
+            "flags": 0,
+            "guid": "E`/c)Sc]TA",
+            "newlyAdded": false,
+            "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
+            "tags": []
         }
     ]
 }
