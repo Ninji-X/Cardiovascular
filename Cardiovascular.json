@@ -66,7 +66,7 @@
         "8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg",
         "tmp0lo46xsh.png"
     ],
-    "mid": "1579647404186",
+    "mid": "1580160550767",
     "name": "Cardiovascular",
     "note_models": [
         {
@@ -96,6 +96,15 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "name": "Cloze-47260",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
             "sortf": 0,
             "tags": [],
             "tmpls": [
@@ -223,7 +232,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         2
                     ]
@@ -275,7 +284,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -329,14 +338,14 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
                 ],
                 [
                     1,
-                    "all",
+                    "any",
                     [
                         1
                     ]
@@ -366,6 +375,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": [
@@ -378,6 +439,7 @@
             ],
             "flags": 0,
             "guid": "e0`FP,):no",
+            "newlyAdded": false,
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": []
         },
@@ -399,6 +461,7 @@
             ],
             "flags": 0,
             "guid": "OJ1IgQ6l)`",
+            "newlyAdded": false,
             "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
             "tags": []
         },
@@ -420,6 +483,7 @@
             ],
             "flags": 0,
             "guid": "IgU447,cbz",
+            "newlyAdded": false,
             "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
             "tags": []
         },
@@ -441,6 +505,7 @@
             ],
             "flags": 0,
             "guid": "Qjco0t)QnT",
+            "newlyAdded": false,
             "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
             "tags": []
         },
@@ -462,6 +527,7 @@
             ],
             "flags": 0,
             "guid": "uj-6biog-J",
+            "newlyAdded": false,
             "note_model_uuid": "965892a1-3c9b-11ea-90f1-40f02f57627f",
             "tags": []
         },
@@ -474,6 +540,7 @@
             ],
             "flags": 0,
             "guid": "G2>)`RKXi<",
+            "newlyAdded": false,
             "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
             "tags": [
                 "Valves"
@@ -488,6 +555,7 @@
             ],
             "flags": 0,
             "guid": "O/&U=U)2C0",
+            "newlyAdded": false,
             "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
             "tags": [
                 "Vessels"
@@ -502,6 +570,7 @@
             ],
             "flags": 0,
             "guid": "Nii9u!f*dc",
+            "newlyAdded": false,
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": [
                 "heart"
@@ -516,6 +585,7 @@
             ],
             "flags": 0,
             "guid": "bt:c/~7MFJ",
+            "newlyAdded": false,
             "note_model_uuid": "ea89a2d2-3ca3-11ea-b33e-7c2a3105af72",
             "tags": [
                 "Year_1::Cardiovascular"
@@ -530,6 +600,7 @@
             ],
             "flags": 0,
             "guid": "HEE.n{2Wks",
+            "newlyAdded": false,
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": []
         },
@@ -542,6 +613,7 @@
             ],
             "flags": 0,
             "guid": "pnLUF}e2%M",
+            "newlyAdded": false,
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": []
         },
@@ -554,6 +626,7 @@
             ],
             "flags": 0,
             "guid": "kYz&=|&j/J",
+            "newlyAdded": false,
             "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
             "tags": []
         },
@@ -566,6 +639,7 @@
             ],
             "flags": 0,
             "guid": "pEDJm_}C`>",
+            "newlyAdded": false,
             "note_model_uuid": "9658929e-3c9b-11ea-961f-40f02f57627f",
             "tags": []
         },
@@ -578,6 +652,7 @@
             ],
             "flags": 0,
             "guid": "FM/l&lt3&k",
+            "newlyAdded": false,
             "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
             "tags": []
         },
@@ -590,7 +665,21 @@
             ],
             "flags": 0,
             "guid": "e$RQX)%3x@",
+            "newlyAdded": false,
             "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the alternative name of the semilunar valve?",
+                "asdf"
+            ],
+            "flags": 0,
+            "guid": "q|U[%(|rg+",
+            "newlyAdded": false,
+            "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
             "tags": []
         }
     ]
