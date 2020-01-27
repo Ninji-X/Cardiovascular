@@ -66,7 +66,7 @@
         "8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg",
         "tmp0lo46xsh.png"
     ],
-    "mid": "1580149535862",
+    "mid": "1580160550767",
     "name": "Cardiovascular",
     "note_models": [
         {
@@ -96,6 +96,15 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "name": "Cloze-47260",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
             "sortf": 0,
             "tags": [],
             "tmpls": [
@@ -223,7 +232,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         2
                     ]
@@ -275,7 +284,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -329,14 +338,14 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
                 ],
                 [
                     1,
-                    "all",
+                    "any",
                     [
                         1
                     ]
@@ -369,13 +378,13 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "8468a0f6-4134-11ea-8eb2-68ecc55d0457",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "crowdanki_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
                     "media": [],
-                    "name": "Text",
+                    "name": "Front",
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
@@ -384,7 +393,7 @@
                 {
                     "font": "Arial",
                     "media": [],
-                    "name": "Extra",
+                    "name": "Back",
                     "ord": 1,
                     "rtl": false,
                     "size": 20,
@@ -393,21 +402,30 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Cloze",
+            "name": "Basic-1fb77",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
             "sortf": 0,
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
-                    "name": "Cloze",
+                    "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{cloze:Text}}"
+                    "qfmt": "{{Front}}"
                 }
             ],
-            "type": 1,
+            "type": 0,
             "vers": []
         }
     ],
@@ -640,36 +658,36 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Balram",
-                "Made this card (yes he did)"
+                "What is the alternative name of the semilunar valve?",
+                "asdf"
             ],
             "flags": 0,
-            "guid": "mhNV;$X@P|",
-            "note_model_uuid": "b071d14f-3ca9-11ea-b8f3-7c2a3105af72",
+            "guid": "q|U[%(|rg+",
+            "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
             "tags": []
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "This card dreams of being&nbsp;{{c1::comitted}}",
-                ""
+                "testing",
+                "testing"
             ],
             "flags": 0,
-            "guid": "od9EI(qW/c",
-            "note_model_uuid": "8468a0f6-4134-11ea-8eb2-68ecc55d0457",
+            "guid": "E`/c)Sc]TA",
+            "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
             "tags": []
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<table style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%;  padding:2px; border: 1px solid black;\">head1</th><th style=\"width:50%;  padding:2px; border: 1px solid black;\">head2</th></tr></thead>\n                <tbody><tr><td style=\"width:50%;  padding:2px; border: 1px solid black;\">data1</td><td style=\"width:50%;  padding:2px; border: 1px solid black;\">data2</td></tr><tr><td style=\"width:50%;  padding:2px; border: 1px solid black;\">data1</td><td style=\"width:50%;  padding:2px; border: 1px solid black;\">{{c1::hello}}<br></td></tr></tbody></table>",
-                ""
+                "add on&nbsp;",
+                "off"
             ],
             "flags": 0,
-            "guid": "fr.ZW(BfpD",
-            "note_model_uuid": "8468a0f6-4134-11ea-8eb2-68ecc55d0457",
+            "guid": "dTa:<U34qa",
+            "note_model_uuid": "9c07f7e0-414c-11ea-b030-784f435d781e",
             "tags": []
         }
     ]
