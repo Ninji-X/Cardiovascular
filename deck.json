@@ -66,7 +66,7 @@
         "8229eb9eedc74d06afcc83370eb3b21d-ao-O.svg",
         "tmp0lo46xsh.png"
     ],
-    "mid": "1571062611084",
+    "mid": "1580149535862",
     "name": "Cardiovascular",
     "note_models": [
         {
@@ -232,7 +232,7 @@
             "req": [
                 [
                     0,
-                    "any",
+                    "all",
                     [
                         2
                     ]
@@ -284,7 +284,7 @@
             "req": [
                 [
                     0,
-                    "any",
+                    "all",
                     [
                         0
                     ]
@@ -338,14 +338,14 @@
             "req": [
                 [
                     0,
-                    "any",
+                    "all",
                     [
                         0
                     ]
                 ],
                 [
                     1,
-                    "any",
+                    "all",
                     [
                         1
                     ]
@@ -402,7 +402,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Cloze-090e6",
+            "name": "Cloze-167e9",
             "req": [
                 [
                     0,
